@@ -4,4 +4,4 @@
     )
 }}
 
-select * from RAW1.SALESINFO.PRICECHANGEMARKER
+select * from {{ source('SALESINFO', 'PRICECHANGEMARKER') }}

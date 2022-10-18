@@ -4,4 +4,4 @@
     )
 }}
 
-select * from RAW1.SALESINFO.SALES 
+select * from  {{ source('SALESINFO', 'SALES') }}

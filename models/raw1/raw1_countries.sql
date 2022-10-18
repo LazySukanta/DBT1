@@ -4,4 +4,4 @@
     )
 }}
 
-select * from RAW1.SALESINFO.COUNTRIES
+select * from {{ source('SALESINFO', 'COUNTRIES') }}

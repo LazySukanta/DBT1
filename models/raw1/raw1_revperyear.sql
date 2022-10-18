@@ -4,4 +4,4 @@
     )
 }}
 
-select * from RAW1.SALESINFO.REVPERYEAR
+select * from  {{ source('SALESINFO', 'REVPERYEAR') }}
